@@ -14,27 +14,18 @@ React Widget By Tallal Ahmad
 
 3. Clone Repository and ensure that you are using authorized credentials
 
-4. Install runtime and dependencies for `/container`
+4. Install runtime and dependencies
 
     ```bash
     yarn install
     ```
-5. Install runtime and dependencies for `/widget`
+5. Set up the .env for api endpoint for grid, default is set.   
 
-    ```bash
-    yarn install
-    ```
-6. Run container app for `/container`
-
-    ```bash
-    yarn start
-    ```
-7. Run widget app for `/widget`
+6. Run the app
 
     ```bash
     yarn start
     ```   
-8. Access container app on browser to see the widget embedding `localhost:3000`
-
-9. Access widget app on browser to see the widget standalone `localhost:3001`   
    
+7. Access container app on browser to see the widget`localhost:3000`
+ 
