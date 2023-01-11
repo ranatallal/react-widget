@@ -19,10 +19,8 @@ export const CustomDataGrid = ({ title, subtitle }: IProps) => {
     () =>
       columnsConfigs
         .sort((x, y) => {
-          if(x.key===title)
-            return -1;
-          else if (y.key === subtitle )
-            return 1;
+          if (x.key === title) return -1;
+          else if (y.key === subtitle) return 1;
           return 0;
         })
         .reduce((acc: MUIDataTableColumnDef[], column, index) => {
@@ -48,7 +46,7 @@ export const CustomDataGrid = ({ title, subtitle }: IProps) => {
             });
           return acc;
         }, []),
-    [isMobile,title,subtitle]
+    [isMobile, title, subtitle]
   );
 
   const options: MUIDataTableOptions = {
