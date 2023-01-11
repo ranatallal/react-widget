@@ -1,14 +1,14 @@
 .Widget {
   text-align: center;
-  height:100%;
+  height: 100%;
   background-color: white;
 }
-#root{
-  height:100vh;
+#root {
+  height: 100vh;
 }
-button{
-  height:3rem;
-  width:5rem;
+button {
+  height: 3rem;
+  width: 5rem;
   font-size: 1rem;
   background-color: blueviolet;
   color: white;
@@ -43,7 +43,7 @@ button{
   }
 }
 
-.heading{
+.heading {
   color: black;
   font-weight: bold;
   font-size: 2rem;
